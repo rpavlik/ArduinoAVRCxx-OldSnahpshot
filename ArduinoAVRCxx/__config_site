@@ -1,0 +1,31 @@
+//===----------------------------------------------------------------------===//
+//
+//                     The LLVM Compiler Infrastructure
+//
+// This file is dual licensed under the MIT and the University of Illinois Open
+// Source Licenses. See LICENSE.TXT for details.
+//
+//===----------------------------------------------------------------------===//
+
+#ifndef _LIBCPP_CONFIG_SITE
+#define _LIBCPP_CONFIG_SITE
+
+#define _LIBCPP_ABI_VERSION 2
+#define _LIBCPP_HAS_NO_GLOBAL_FILESYSTEM_NAMESPACE
+#define _LIBCPP_HAS_NO_STDIN
+#define _LIBCPP_HAS_NO_STDOUT
+#define _LIBCPP_HAS_NO_THREADS
+#define _LIBCPP_HAS_NO_MONOTONIC_CLOCK
+#define _LIBCPP_HAS_NO_THREAD_UNSAFE_C_FUNCTIONS
+#define _LIBCPP_DISABLE_VISIBILITY_ANNOTATIONS
+#define _LIBCPP_NO_VCRUNTIME
+#define _LIBCPP_HAS_NO_LONG_LONG
+#define _LIBCPP_HAS_NO_INT128
+#define _LIBCPP_HAS_NO_ASAN
+#define _LIBCPP_HAS_NO_ATOMIC_HEADER
+#define _LIBCPP_HAS_NO_MULTIBYTE
+
+// Well, not strictly true but we have limitations as well
+#define _LIBCPP_WINDOWS_STORE_APP
+
+#endif // _LIBCPP_CONFIG_SITE
